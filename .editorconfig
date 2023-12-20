@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# IDE0055: Fix formatting
+dotnet_diagnostic.IDE0055.severity = none
+
+# IDE0022: Use block body for methods
+csharp_style_expression_bodied_methods = false
+
+# Default severity for all analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = none
